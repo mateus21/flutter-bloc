@@ -1,6 +1,5 @@
-import 'package:bytebank/screens/dashboard.dart';
+import 'package:bytebank/screens/counter.dart';
 import 'package:flutter/material.dart';
-import 'package:uuid/uuid.dart';
 
 void main() {
   runApp(BytebankApp());
@@ -19,7 +18,7 @@ class BytebankApp extends StatelessWidget {
           textTheme: ButtonTextTheme.primary,
         ),
       ),
-      home: Dashboard(),
+      home: CounterContainer(),
     );
   }
 }
